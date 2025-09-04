@@ -20,6 +20,24 @@ dl {
 	margin-left: 42%;
   }
 
+.body {
+  border: 3px solid black;
+}
+
+
+.special {
+color: orangered;
+}
+
+h1 {
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
+  background-color: lightgrey;
+  outline-color: black;
+  border: 1px solid grey;
+}
+
 <style>
   .menu {
   /* it can be ul.nav as well */
@@ -32,13 +50,13 @@ dl {
   .menu {
     display: inline; /* Display list items in a horizontal line */
   }
-  .menu:hover {
+  .menu:hover a{
  background-color: lightblue;
  border-color: black;
  cursor: pointer;
   }
 
-  .menu {
+  .menu a{
     text-decoration: none;
     color: #8d8b8b;
     font-weight: bold;
@@ -48,7 +66,8 @@ dl {
    
   }
 
-  menu li{
+  menu {
   font-size: 15px;
  }
 </style>
+
