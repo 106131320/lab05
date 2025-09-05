@@ -61,6 +61,9 @@ h1 {
 
 #tables {
   float: right;
+  margin: auto;
+  text-align: center;
+  
 }
 .tables {
   margin: auto;
@@ -84,10 +87,11 @@ footer {
 
 #images {
   float: right;
-  
+  text-align: center;
+  width: 50%;
 }
 
-#lists. #images, #tables. #hyperlinks {
+#lists,  #hyperlinks {
   width: 50%;
   text-align: center;
 }
